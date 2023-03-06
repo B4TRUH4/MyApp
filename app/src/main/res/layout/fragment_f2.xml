@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/white"
+                                                   tools:context=".Frag2">
+
+    <TextView
+            android:text="@string/story_label"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            android:layout_width="409dp"
+            android:layout_height="57dp"
+            android:id="@+id/story_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="32dp"/>
+
+    <TableLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/story_table"
+            app:layout_constraintTop_toBottomOf="@+id/story_label"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:background="@color/grey">
+
+            <TextView
+                    android:text="@string/dateTitle"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:textColor="@color/black"
+                    android:id="@+id/dateTitle"/>
+
+            <TextView
+                    android:text="@string/coordinatesTitle"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:textColor="@color/black"
+                    android:id="@+id/coordinatesTitle"/>
+
+            <TextView
+                    android:text="@string/deleteButton"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:textColor="@color/black"
+                    android:id="@+id/deleteButtonTitle"/>
+
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

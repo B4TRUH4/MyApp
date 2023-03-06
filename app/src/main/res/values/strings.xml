@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Где МКС?</string>
+    <string name="tab_text_1">Карта</string>
+    <string name="tab_text_2">История</string>
+    <string name="story_label">История просмотра</string>
+    <string name="dateTitle">Дата,\nвремя</string>
+    <string name="coordinatesTitle">Широта, долгота</string>
+    <string name="deleteButton">Удалить</string>
+    <string name="date">______</string>
+    <string name="coordinates">______</string>
+</resources>
